@@ -1,11 +1,11 @@
 ﻿Module Module1
 
     Public UserName As String
-    Public CurrentWeight As Integer
     Public Height As Integer
     Public Age As Integer
-    Public GoalWeight As Integer
     Public Gender As String
+    Public CurrentWeight As Integer
+    Public GoalWeight As Integer
     Public ActivityLevel As String
     Public GoalRate As String
 

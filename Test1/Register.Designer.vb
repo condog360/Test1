@@ -39,6 +39,7 @@ Partial Class Register
         Me.cbo_GoalRate = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.txt_Age = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -133,6 +134,7 @@ Partial Class Register
         'cbo_Gender
         '
         Me.cbo_Gender.FormattingEnabled = True
+        Me.cbo_Gender.Items.AddRange(New Object() {"Male", "Female"})
         Me.cbo_Gender.Location = New System.Drawing.Point(57, 97)
         Me.cbo_Gender.Name = "cbo_Gender"
         Me.cbo_Gender.Size = New System.Drawing.Size(109, 21)
@@ -151,6 +153,7 @@ Partial Class Register
         'cbo_ActivityLevel
         '
         Me.cbo_ActivityLevel.FormattingEnabled = True
+        Me.cbo_ActivityLevel.Items.AddRange(New Object() {"Sedentary", "Lightly Active", "Active", "Very Active"})
         Me.cbo_ActivityLevel.Location = New System.Drawing.Point(98, 165)
         Me.cbo_ActivityLevel.Name = "cbo_ActivityLevel"
         Me.cbo_ActivityLevel.Size = New System.Drawing.Size(510, 21)
@@ -169,6 +172,7 @@ Partial Class Register
         'cbo_GoalRate
         '
         Me.cbo_GoalRate.FormattingEnabled = True
+        Me.cbo_GoalRate.Items.AddRange(New Object() {"Lose 2 Pounds Per Week", "Lose 1 Pound Per Week", "Lose 0.5 Pounds Per Week", "Maintain Weight", "Gain 0.5 Pounds Per Week", "Gain 1 Pound Per Week"})
         Me.cbo_GoalRate.Location = New System.Drawing.Point(128, 189)
         Me.cbo_GoalRate.Name = "cbo_GoalRate"
         Me.cbo_GoalRate.Size = New System.Drawing.Size(472, 21)
@@ -194,11 +198,19 @@ Partial Class Register
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "Age:"
         '
+        'txt_Age
+        '
+        Me.txt_Age.Location = New System.Drawing.Point(36, 77)
+        Me.txt_Age.Name = "txt_Age"
+        Me.txt_Age.Size = New System.Drawing.Size(56, 20)
+        Me.txt_Age.TabIndex = 17
+        '
         'Register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(684, 291)
+        Me.Controls.Add(Me.txt_Age)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.cbo_GoalRate)
@@ -240,4 +252,5 @@ Partial Class Register
     Friend WithEvents cbo_GoalRate As ComboBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label9 As Label
+    Friend WithEvents txt_Age As TextBox
 End Class

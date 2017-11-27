@@ -23,4 +23,6 @@
     Public DurationOfExercise As String
     Public IntensityOfExercise As String
 
+    Public CurrentCaloriesTotal As Integer
+
 End Module

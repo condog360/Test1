@@ -100,6 +100,12 @@
     <Compile Include="AddExercise.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -122,6 +128,12 @@
     <Compile Include="Register.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Start.Designer.vb">
+      <DependentUpon>Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="\\file-home1\ConSmi16%24\Desktop\Project.Designer.vb">
       <DependentUpon>Project.vb</DependentUpon>
     </Compile>
@@ -136,6 +148,9 @@
     <EmbeddedResource Include="AddFood.resx">
       <DependentUpon>AddFood.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -144,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="\\file-home1\ConSmi16%24\Desktop\Project.resx">
       <DependentUpon>Project.vb</DependentUpon>

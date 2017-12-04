@@ -69,10 +69,12 @@ Partial Class frm_login
         '
         'dtp_2
         '
+        Me.dtp_2.Checked = False
         Me.dtp_2.Location = New System.Drawing.Point(105, 87)
         Me.dtp_2.Name = "dtp_2"
         Me.dtp_2.Size = New System.Drawing.Size(158, 20)
         Me.dtp_2.TabIndex = 4
+        Me.dtp_2.Value = New Date(2017, 12, 4, 0, 0, 0, 0)
         '
         'Button1
         '

@@ -23,4 +23,7 @@
         'This is a comment
     End Sub
 
+    Private Sub dtp_1_ValueChanged(sender As Object, e As EventArgs) Handles dtp_1.ValueChanged
+
+    End Sub
 End Class

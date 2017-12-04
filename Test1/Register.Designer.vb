@@ -204,6 +204,7 @@ Partial Class Register
         Me.dtp_1.Name = "dtp_1"
         Me.dtp_1.Size = New System.Drawing.Size(128, 20)
         Me.dtp_1.TabIndex = 17
+        Me.dtp_1.Value = New Date(2017, 12, 4, 0, 0, 0, 0)
         '
         'Register
         '

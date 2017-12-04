@@ -8,8 +8,8 @@
         Do Until EOF(1) Or accountfound = True
             Dim fullline As String = LineInput(1)
             Dim Item() As String = Split(fullline, ",")
-            correctloginname = Item(1)
-            correctlogindob = Item(3)
+            correctloginname = Item(0)
+            correctlogindob = Item(2)
             If loginnameattempt = correctloginname And logindobattempt = correctlogindob Then
                 MainMenuScreen.Show()
                 Hide()

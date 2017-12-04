@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Register
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Register
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -39,7 +39,7 @@ Partial Class Register
         Me.cbo_GoalRate = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.txt_Age = New System.Windows.Forms.TextBox()
+        Me.dtp_1 = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'Label1
@@ -198,19 +198,19 @@ Partial Class Register
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "Age:"
         '
-        'txt_Age
+        'dtp_1
         '
-        Me.txt_Age.Location = New System.Drawing.Point(36, 77)
-        Me.txt_Age.Name = "txt_Age"
-        Me.txt_Age.Size = New System.Drawing.Size(56, 20)
-        Me.txt_Age.TabIndex = 17
+        Me.dtp_1.Location = New System.Drawing.Point(37, 78)
+        Me.dtp_1.Name = "dtp_1"
+        Me.dtp_1.Size = New System.Drawing.Size(128, 20)
+        Me.dtp_1.TabIndex = 17
         '
         'Register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(684, 291)
-        Me.Controls.Add(Me.txt_Age)
+        Me.Controls.Add(Me.dtp_1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.cbo_GoalRate)
@@ -252,5 +252,5 @@ Partial Class Register
     Friend WithEvents cbo_GoalRate As ComboBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label9 As Label
-    Friend WithEvents txt_Age As TextBox
+    Friend WithEvents dtp_1 As DateTimePicker
 End Class

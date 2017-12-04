@@ -2,12 +2,19 @@
 
     Public UserName As String
     Public Height As Integer
-    Public Age As Integer
+    Public Age As String
     Public Gender As String
     Public CurrentWeight As Integer
     Public GoalWeight As Integer
     Public ActivityLevel As String
     Public GoalRate As String
+
+    Public loginnameattempt As String
+    Public correctloginname As String
+    Public logindobattempt As String
+    Public correctlogindob As String
+    Public logindatafile As String
+    Public accountfound As Boolean
 
     Public FoodName As String
     Public Calories As Integer = 0

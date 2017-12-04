@@ -5,10 +5,10 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FoodName = txt_FoodName.Text
-        BackMain.ListBox1.Items.Add(txt_FoodName.Text)
+        MainMenuScreen.ListBox1.Items.Add(txt_FoodName.Text)
         Calories = txt_Calories.Text
         CurrentCaloriesTotal = CurrentCaloriesTotal + Calories
-        BackMain.lbl_FoodCalories.Text = CurrentCaloriesTotal
+        MainMenuScreen.lbl_FoodCalories.Text = CurrentCaloriesTotal
         Protein = txt_Protein.Text
         Carbohydrates = txt_Carbohydrates.Text
         Sugars = Txt_Sugars.Text
@@ -23,7 +23,7 @@
         FileClose(1)
         MsgBox("Food Added", MsgBoxStyle.OkOnly, "Success")
         Hide()
-        BackMain.Refresh()
+        MainMenuScreen.Refresh()
     End Sub
 
 

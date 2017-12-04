@@ -25,8 +25,8 @@ Partial Class frm_login
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.txt_LoginAttempt = New System.Windows.Forms.TextBox()
+        Me.dtp_2 = New System.Windows.Forms.DateTimePicker()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -60,19 +60,19 @@ Partial Class frm_login
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Date Of Birth:"
         '
-        'TextBox1
+        'txt_LoginAttempt
         '
-        Me.TextBox1.Location = New System.Drawing.Point(171, 59)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox1.TabIndex = 3
+        Me.txt_LoginAttempt.Location = New System.Drawing.Point(171, 59)
+        Me.txt_LoginAttempt.Name = "txt_LoginAttempt"
+        Me.txt_LoginAttempt.Size = New System.Drawing.Size(145, 20)
+        Me.txt_LoginAttempt.TabIndex = 3
         '
-        'DateTimePicker1
+        'dtp_2
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(105, 87)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(158, 20)
-        Me.DateTimePicker1.TabIndex = 4
+        Me.dtp_2.Location = New System.Drawing.Point(105, 87)
+        Me.dtp_2.Name = "dtp_2"
+        Me.dtp_2.Size = New System.Drawing.Size(158, 20)
+        Me.dtp_2.TabIndex = 4
         '
         'Button1
         '
@@ -90,8 +90,8 @@ Partial Class frm_login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(317, 183)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.dtp_2)
+        Me.Controls.Add(Me.txt_LoginAttempt)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -105,7 +105,7 @@ Partial Class frm_login
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents txt_LoginAttempt As TextBox
+    Friend WithEvents dtp_2 As DateTimePicker
     Friend WithEvents Button1 As Button
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class BackMain
+Partial Class MainMenuScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -336,7 +336,7 @@ Partial Class BackMain
         Me.btn_FinishLogging.UseVisualStyleBackColor = True
         Me.btn_FinishLogging.UseWaitCursor = True
         '
-        'BackMain
+        'MainMenuScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -369,7 +369,7 @@ Partial Class BackMain
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lbl_Goall)
-        Me.Name = "BackMain"
+        Me.Name = "MainMenuScreen"
         Me.Text = "MainMenu"
         Me.UseWaitCursor = True
         Me.ResumeLayout(False)

@@ -134,10 +134,10 @@
     <Compile Include="Start.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="\\file-home1\ConSmi16%24\Desktop\Project.Designer.vb">
+    <Compile Include="Project.Designer.vb">
       <DependentUpon>Project.vb</DependentUpon>
     </Compile>
-    <Compile Include="\\file-home1\ConSmi16%24\Desktop\Project.vb">
+    <Compile Include="Project.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -163,7 +163,7 @@
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="\\file-home1\ConSmi16%24\Desktop\Project.resx">
+    <EmbeddedResource Include="Project.resx">
       <DependentUpon>Project.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

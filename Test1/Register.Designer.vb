@@ -153,7 +153,7 @@ Partial Class Register
         'cbo_ActivityLevel
         '
         Me.cbo_ActivityLevel.FormattingEnabled = True
-        Me.cbo_ActivityLevel.Items.AddRange(New Object() {"Sedentary", "Lightly Active", "Active", "Very Active"})
+        Me.cbo_ActivityLevel.Items.AddRange(New Object() {"Sedentary", "Lightly Active", "Moderately Active", "Active", "Very Active"})
         Me.cbo_ActivityLevel.Location = New System.Drawing.Point(98, 165)
         Me.cbo_ActivityLevel.Name = "cbo_ActivityLevel"
         Me.cbo_ActivityLevel.Size = New System.Drawing.Size(510, 21)

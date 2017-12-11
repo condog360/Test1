@@ -2,12 +2,14 @@
 
     Public UserName As String
     Public Height As Integer
-    Public Age As String
+    Public age As String
     Public Gender As String
     Public CurrentWeight As Integer
     Public GoalWeight As Integer
     Public ActivityLevel As String
     Public GoalRate As String
+    Public BMR As Decimal
+    Public BMRPLUSEXERCISE As Decimal
 
     Public loginnameattempt As String
     Public correctloginname As String

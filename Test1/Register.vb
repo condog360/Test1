@@ -18,11 +18,13 @@
             ActivityLevel = 3
         ElseIf ActivityLevel = "Active" Then
             ActivityLevel = 4
-        Else Activitylevel = 5
+        ElseIf Activitylevel = "Very Active" Then
+            ActivityLevel = 5
         End If
-            GoalRate = cbo_GoalRate.Text 'Allocates the user's input into the GoalRate variable'
+        GoalRate = cbo_GoalRate.Text 'Allocates the user's input into the GoalRate variable'
         BMR = 88.362 + (13.397 * CurrentWeight) + (4.799 * Height) - (5.667 * Age)
         BMRPLUSEXERCISE = (BMR * ActivityLevel)
+        MainMenuScreen.lbl_Goal = BMRPLUSEXERCISE
         Dim fullline As String = "" 'Set the fullline as a string'
         fullline = (UserName & "," & Height & "," & age & "," & Gender & "," & CurrentWeight & "," & GoalWeight & "," & ActivityLevel & "," & GoalRate) 'Store these variables'
         FileOpen(1, "N:\Visual Studio 2017\project\logins.csv", OpenMode.Append) 'Open The file'
@@ -31,14 +33,5 @@
         MsgBox("Account Added", MsgBoxStyle.OkOnly, "Success") 'let the user know they have had their account added successfully'
         MainMenuScreen.Show() 'Show the main menu'
         Hide() 'Hide this window'
-    End Sub
-
-
-    Private Sub Register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'This is a comment
-    End Sub
-
-    Private Sub dtp_1_ValueChanged(sender As Object, e As EventArgs) Handles dtp_1.ValueChanged
-
     End Sub
 End Class

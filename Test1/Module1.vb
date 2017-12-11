@@ -9,7 +9,7 @@
     Public ActivityLevel As String
     Public GoalRate As String
     Public BMR As Decimal
-    Public BMRPLUSEXERCISE As Decimal
+    Public BMRPLUSEXERCISE As Integer
 
     Public loginnameattempt As String
     Public correctloginname As String

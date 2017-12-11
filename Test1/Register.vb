@@ -24,7 +24,7 @@
         GoalRate = cbo_GoalRate.Text 'Allocates the user's input into the GoalRate variable'
         BMR = 88.362 + (13.397 * CurrentWeight) + (4.799 * Height) - (5.667 * Age)
         BMRPLUSEXERCISE = (BMR * ActivityLevel)
-        MainMenuScreen.lbl_Goal = BMRPLUSEXERCISE
+        MainMenuScreen.lbl_Goal.Text = BMRPLUSEXERCISE
         Dim fullline As String = "" 'Set the fullline as a string'
         fullline = (UserName & "," & Height & "," & age & "," & Gender & "," & CurrentWeight & "," & GoalWeight & "," & ActivityLevel & "," & GoalRate) 'Store these variables'
         FileOpen(1, "N:\Visual Studio 2017\project\logins.csv", OpenMode.Append) 'Open The file'

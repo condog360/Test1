@@ -3,6 +3,8 @@
 
     End Sub
 
+
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FoodName = txt_FoodName.Text
         MainMenuScreen.ListBox1.Items.Add(txt_FoodName.Text)
@@ -16,6 +18,9 @@
         SatFats = txt_SatFats.Text
         Fibre = txt_Fibre.Text
         Salt = txt_Salt.Text
+
+        MainMenuScreen.currentLabelChanger.AddToBox(FoodName)
+
         Dim fullline As String = ""
         fullline = (FoodName & "," & Calories & "," & Protein & "," & Carbohydrates & "," & Sugars & "," & Fats & "," & SatFats & "," & Fibre & "," & Salt)
         FileOpen(1, "N:\Visual Studio 2017\project\FoodTable.CSV", OpenMode.Append)

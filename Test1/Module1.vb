@@ -14,8 +14,8 @@
 
     Public loginnameattempt As String
     Public correctloginname As String
-    Public logindobattempt As String
-    Public correctlogindob As String
+    Public loginHeightattempt As String
+    Public correctloginHeight As Integer
     Public logindatafile As String
     Public accountfound As Boolean
 

@@ -27,7 +27,8 @@ Partial Class frm_login
         Me.txt_LoginAttempt = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.dtp_2 = New System.Windows.Forms.DateTimePicker()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txt_HeightAttempt = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -73,26 +74,34 @@ Partial Class frm_login
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(1, 87)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(106, 20)
+        Me.Label3.Size = New System.Drawing.Size(0, 20)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Date Of Birth:"
         '
-        'dtp_2
+        'Label4
         '
-        Me.dtp_2.Checked = False
-        Me.dtp_2.Location = New System.Drawing.Point(105, 87)
-        Me.dtp_2.Name = "dtp_2"
-        Me.dtp_2.Size = New System.Drawing.Size(158, 20)
-        Me.dtp_2.TabIndex = 4
-        Me.dtp_2.Value = New Date(2017, 12, 4, 0, 0, 0, 0)
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(5, 83)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(60, 20)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Height:"
+        '
+        'txt_HeightAttempt
+        '
+        Me.txt_HeightAttempt.Location = New System.Drawing.Point(65, 85)
+        Me.txt_HeightAttempt.Name = "txt_HeightAttempt"
+        Me.txt_HeightAttempt.Size = New System.Drawing.Size(132, 20)
+        Me.txt_HeightAttempt.TabIndex = 7
         '
         'frm_login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(317, 183)
+        Me.Controls.Add(Me.txt_HeightAttempt)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.dtp_2)
         Me.Controls.Add(Me.txt_LoginAttempt)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -109,5 +118,6 @@ Partial Class frm_login
     Friend WithEvents txt_LoginAttempt As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents dtp_2 As DateTimePicker
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txt_HeightAttempt As TextBox
 End Class

@@ -106,6 +106,18 @@
     <Compile Include="AddFoodDinner.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AddFoodSnacks.Designer.vb">
+      <DependentUpon>AddFoodSnacks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddFoodSnacks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddfoodTea.Designer.vb">
+      <DependentUpon>AddfoodTea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddfoodTea.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>LoginScreen.vb</DependentUpon>
     </Compile>
@@ -157,6 +169,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddFoodDinner.resx">
       <DependentUpon>AddFoodDinner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFoodSnacks.resx">
+      <DependentUpon>AddFoodSnacks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddfoodTea.resx">
+      <DependentUpon>AddfoodTea.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.vb</DependentUpon>

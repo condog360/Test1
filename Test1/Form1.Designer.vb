@@ -24,10 +24,10 @@ Partial Class frm_login
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.txt_LoginAttempt = New System.Windows.Forms.TextBox()
-        Me.dtp_2 = New System.Windows.Forms.DateTimePicker()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.dtp_2 = New System.Windows.Forms.DateTimePicker()
         Me.SuspendLayout()
         '
         'Label1
@@ -50,31 +50,12 @@ Partial Class frm_login
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Username (Full Name):"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(1, 87)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(106, 20)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Date Of Birth:"
-        '
         'txt_LoginAttempt
         '
         Me.txt_LoginAttempt.Location = New System.Drawing.Point(171, 59)
         Me.txt_LoginAttempt.Name = "txt_LoginAttempt"
         Me.txt_LoginAttempt.Size = New System.Drawing.Size(145, 20)
         Me.txt_LoginAttempt.TabIndex = 3
-        '
-        'dtp_2
-        '
-        Me.dtp_2.Checked = False
-        Me.dtp_2.Location = New System.Drawing.Point(105, 87)
-        Me.dtp_2.Name = "dtp_2"
-        Me.dtp_2.Size = New System.Drawing.Size(158, 20)
-        Me.dtp_2.TabIndex = 4
-        Me.dtp_2.Value = New Date(2017, 12, 4, 0, 0, 0, 0)
         '
         'Button1
         '
@@ -85,6 +66,25 @@ Partial Class frm_login
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(1, 87)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(106, 20)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Date Of Birth:"
+        '
+        'dtp_2
+        '
+        Me.dtp_2.Checked = False
+        Me.dtp_2.Location = New System.Drawing.Point(105, 87)
+        Me.dtp_2.Name = "dtp_2"
+        Me.dtp_2.Size = New System.Drawing.Size(158, 20)
+        Me.dtp_2.TabIndex = 4
+        Me.dtp_2.Value = New Date(2017, 12, 4, 0, 0, 0, 0)
         '
         'frm_login
         '
@@ -106,8 +106,8 @@ Partial Class frm_login
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents txt_LoginAttempt As TextBox
-    Friend WithEvents dtp_2 As DateTimePicker
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents dtp_2 As DateTimePicker
 End Class

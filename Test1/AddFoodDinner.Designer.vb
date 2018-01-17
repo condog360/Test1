@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class AddFood
+Partial Class AddFoodDinner
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -47,166 +47,166 @@ Partial Class AddFood
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 6)
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(258, 18)
-        Me.Label1.TabIndex = 0
+        Me.Label1.TabIndex = 1
         Me.Label1.Text = "Food Name and Weight (Grams):"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(3, 33)
+        Me.Label2.Location = New System.Drawing.Point(12, 39)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(76, 18)
-        Me.Label2.TabIndex = 1
+        Me.Label2.TabIndex = 2
         Me.Label2.Text = "Calories:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(3, 59)
+        Me.Label3.Location = New System.Drawing.Point(12, 67)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(135, 18)
-        Me.Label3.TabIndex = 2
+        Me.Label3.TabIndex = 3
         Me.Label3.Text = "Protein (Grams):"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(2, 87)
+        Me.Label4.Location = New System.Drawing.Point(12, 95)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(191, 18)
-        Me.Label4.TabIndex = 3
+        Me.Label4.TabIndex = 4
         Me.Label4.Text = "Carbohydrates (Grams):"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(3, 115)
+        Me.Label5.Location = New System.Drawing.Point(12, 122)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(125, 18)
-        Me.Label5.TabIndex = 4
+        Me.Label5.TabIndex = 5
         Me.Label5.Text = "Sugar (Grams):"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(5, 142)
+        Me.Label6.Location = New System.Drawing.Point(12, 150)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(105, 18)
-        Me.Label6.TabIndex = 5
+        Me.Label6.TabIndex = 6
         Me.Label6.Text = "Fat (Grams):"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(5, 169)
+        Me.Label7.Location = New System.Drawing.Point(11, 177)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(182, 18)
-        Me.Label7.TabIndex = 6
+        Me.Label7.TabIndex = 7
         Me.Label7.Text = "Saturated Fat (Grams):"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(5, 195)
+        Me.Label8.Location = New System.Drawing.Point(11, 206)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(119, 18)
-        Me.Label8.TabIndex = 7
+        Me.Label8.TabIndex = 8
         Me.Label8.Text = "Fibre (Grams):"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(5, 221)
+        Me.Label9.Location = New System.Drawing.Point(12, 235)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(110, 18)
-        Me.Label9.TabIndex = 8
+        Me.Label9.TabIndex = 9
         Me.Label9.Text = "Salt (Grams):"
         '
         'txt_FoodName
         '
-        Me.txt_FoodName.Location = New System.Drawing.Point(259, 7)
+        Me.txt_FoodName.Location = New System.Drawing.Point(272, 9)
         Me.txt_FoodName.Name = "txt_FoodName"
-        Me.txt_FoodName.Size = New System.Drawing.Size(220, 20)
-        Me.txt_FoodName.TabIndex = 9
+        Me.txt_FoodName.Size = New System.Drawing.Size(208, 20)
+        Me.txt_FoodName.TabIndex = 10
         '
         'txt_Calories
         '
-        Me.txt_Calories.Location = New System.Drawing.Point(78, 34)
+        Me.txt_Calories.Location = New System.Drawing.Point(94, 40)
         Me.txt_Calories.Name = "txt_Calories"
         Me.txt_Calories.Size = New System.Drawing.Size(60, 20)
-        Me.txt_Calories.TabIndex = 10
+        Me.txt_Calories.TabIndex = 11
         '
         'txt_Protein
         '
-        Me.txt_Protein.Location = New System.Drawing.Point(140, 60)
+        Me.txt_Protein.Location = New System.Drawing.Point(150, 68)
         Me.txt_Protein.Name = "txt_Protein"
         Me.txt_Protein.Size = New System.Drawing.Size(53, 20)
-        Me.txt_Protein.TabIndex = 11
+        Me.txt_Protein.TabIndex = 12
         '
         'txt_Carbohydrates
         '
-        Me.txt_Carbohydrates.Location = New System.Drawing.Point(194, 88)
+        Me.txt_Carbohydrates.Location = New System.Drawing.Point(208, 96)
         Me.txt_Carbohydrates.Name = "txt_Carbohydrates"
         Me.txt_Carbohydrates.Size = New System.Drawing.Size(62, 20)
-        Me.txt_Carbohydrates.TabIndex = 12
+        Me.txt_Carbohydrates.TabIndex = 13
         '
         'Txt_Sugars
         '
-        Me.Txt_Sugars.Location = New System.Drawing.Point(126, 117)
+        Me.Txt_Sugars.Location = New System.Drawing.Point(136, 123)
         Me.Txt_Sugars.Name = "Txt_Sugars"
         Me.Txt_Sugars.Size = New System.Drawing.Size(61, 20)
-        Me.Txt_Sugars.TabIndex = 13
+        Me.Txt_Sugars.TabIndex = 14
         '
         'txt_Fat
         '
-        Me.txt_Fat.Location = New System.Drawing.Point(109, 143)
+        Me.txt_Fat.Location = New System.Drawing.Point(114, 151)
         Me.txt_Fat.Name = "txt_Fat"
         Me.txt_Fat.Size = New System.Drawing.Size(66, 20)
-        Me.txt_Fat.TabIndex = 14
+        Me.txt_Fat.TabIndex = 15
         '
         'txt_SatFats
         '
-        Me.txt_SatFats.Location = New System.Drawing.Point(186, 170)
+        Me.txt_SatFats.Location = New System.Drawing.Point(189, 178)
         Me.txt_SatFats.Name = "txt_SatFats"
         Me.txt_SatFats.Size = New System.Drawing.Size(72, 20)
-        Me.txt_SatFats.TabIndex = 15
+        Me.txt_SatFats.TabIndex = 16
         '
         'txt_Fibre
         '
-        Me.txt_Fibre.Location = New System.Drawing.Point(122, 196)
+        Me.txt_Fibre.Location = New System.Drawing.Point(131, 207)
         Me.txt_Fibre.Name = "txt_Fibre"
         Me.txt_Fibre.Size = New System.Drawing.Size(62, 20)
-        Me.txt_Fibre.TabIndex = 16
+        Me.txt_Fibre.TabIndex = 17
         '
         'txt_Salt
         '
-        Me.txt_Salt.Location = New System.Drawing.Point(114, 222)
+        Me.txt_Salt.Location = New System.Drawing.Point(120, 236)
         Me.txt_Salt.Name = "txt_Salt"
         Me.txt_Salt.Size = New System.Drawing.Size(60, 20)
-        Me.txt_Salt.TabIndex = 17
+        Me.txt_Salt.TabIndex = 18
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(312, 82)
+        Me.Button1.Location = New System.Drawing.Point(315, 106)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(136, 105)
-        Me.Button1.TabIndex = 18
+        Me.Button1.TabIndex = 19
         Me.Button1.Text = "Save and Continue"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'AddFood
+        'AddFoodDinner
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -230,8 +230,8 @@ Partial Class AddFood
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "AddFood"
-        Me.Text = "Add Food"
+        Me.Name = "AddFoodDinner"
+        Me.Text = "AddFoodDinner"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -2,7 +2,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FileOpen(1, "N:\Visual Studio 2017\project\logins.csv", OpenMode.Input)
         loginnameattempt = txt_LoginAttempt.Text
-        logindobattempt = dtp_2.Value
+        logindobattempt = age
         logindatafile = ""
         accountfound = False
         Do Until EOF(1) Or accountfound = True

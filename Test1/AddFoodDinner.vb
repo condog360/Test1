@@ -1,11 +1,10 @@
-﻿Public Class AddFood
-    Private Sub AddFood_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Public Class AddFoodDinner
+    Private Sub AddFoodDinner_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FoodName = txt_FoodName.Text
-        MainMenuScreen.ListBox1.Items.Add(txt_FoodName.Text)
+        MainMenuScreen.ListBox2.Items.Add(txt_FoodName.Text)
         Calories = txt_Calories.Text
         CurrentCaloriesTotal = CurrentCaloriesTotal + Calories
         MainMenuScreen.lbl_FoodCalories.Text = CurrentCaloriesTotal
@@ -25,7 +24,4 @@
         Hide()
         MainMenuScreen.Refresh()
     End Sub
-
-
-
 End Class

@@ -88,10 +88,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddFood.Designer.vb">
-      <DependentUpon>AddFood.vb</DependentUpon>
+    <Compile Include="AddFoodBreakfast.Designer.vb">
+      <DependentUpon>AddFoodBreakfast.vb</DependentUpon>
     </Compile>
-    <Compile Include="AddFood.vb">
+    <Compile Include="AddFoodBreakfast.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddExercise.Designer.vb">
@@ -100,9 +100,16 @@
     <Compile Include="AddExercise.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AddFoodDinner.Designer.vb">
+      <DependentUpon>AddFoodDinner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddFoodDinner.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>LoginScreen.vb</DependentUpon>
     </Compile>
+    <Compile Include="Form1.vb" />
     <Compile Include="LoginScreen.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -145,10 +152,16 @@
     <EmbeddedResource Include="AddExercise.resx">
       <DependentUpon>AddExercise.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddFood.resx">
-      <DependentUpon>AddFood.vb</DependentUpon>
+    <EmbeddedResource Include="AddFoodBreakfast.resx">
+      <DependentUpon>AddFoodBreakfast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFoodDinner.resx">
+      <DependentUpon>AddFoodDinner.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">

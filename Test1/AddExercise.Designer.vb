@@ -44,6 +44,7 @@ Partial Class AddExercise
         'lst_NameOfExercise
         '
         Me.lst_NameOfExercise.BackColor = System.Drawing.SystemColors.Window
+        Me.lst_NameOfExercise.Items.AddRange(New Object() {"Football", "Basketball", "Cricket", "Running", "Tennis"})
         Me.lst_NameOfExercise.Location = New System.Drawing.Point(3, 20)
         Me.lst_NameOfExercise.Name = "lst_NameOfExercise"
         Me.lst_NameOfExercise.Size = New System.Drawing.Size(279, 134)
@@ -79,7 +80,7 @@ Partial Class AddExercise
         'cbo_IntensityOfExercise
         '
         Me.cbo_IntensityOfExercise.FormattingEnabled = True
-        Me.cbo_IntensityOfExercise.Items.AddRange(New Object() {"Low", "Medium (A slight shortness of breath)", "High (Out of breath)", "Extreme (Completely fatigued, muscle ache, completely out of breath)"})
+        Me.cbo_IntensityOfExercise.Items.AddRange(New Object() {"Medium (A slight shortness of breath)", "High (Out of breath)", "Extreme (Completely fatigued, muscle ache, completely out of breath)"})
         Me.cbo_IntensityOfExercise.Location = New System.Drawing.Point(81, 177)
         Me.cbo_IntensityOfExercise.Name = "cbo_IntensityOfExercise"
         Me.cbo_IntensityOfExercise.Size = New System.Drawing.Size(200, 21)

@@ -30,6 +30,7 @@
         PrintLine(1, fullline)
         FileClose(1)
         MsgBox("Your total amount of calories for today is: " & CurrentCaloriesTotal)
+        Close()
     End Sub
 End Class
 

@@ -40,12 +40,16 @@
         STAKEHOLDERSAIM = BMRPLUSEXERCISE + GoalRate
         MainMenuScreen.lbl_Goal.Text = STAKEHOLDERSAIM
         Dim fullline As String = "" 'Set the fullline as a string'
-        fullline = (UserName & "," & Height & "," & age & "," & Gender & "," & CurrentWeight & "," & GoalWeight & "," & ActivityLevel & "," & GoalRate) 'Store these variables'
+        fullline = (UserName & "," & Height & "," & age & "," & Gender & "," & CurrentWeight & "," & GoalWeight & "," & ActivityLevel & "," & GoalRate & "," & STAKEHOLDERSAIM) 'Store these variables'
         FileOpen(1, "N:\Visual Studio 2017\project\logins.csv", OpenMode.Append) 'Open The file'
         PrintLine(1, fullline) 'Print the contents into the File on a line'
         FileClose(1) 'Cloe the file'
         MsgBox("Account Added", MsgBoxStyle.OkOnly, "Success") 'let the user know they have had their account added successfully'
         MainMenuScreen.Show() 'Show the main menu'
         Hide() 'Hide this window'
+    End Sub
+
+    Private Sub Register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

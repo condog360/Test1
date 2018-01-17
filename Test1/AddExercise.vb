@@ -10,4 +10,8 @@
         FileClose(1)
         MsgBox("Account Added", MsgBoxStyle.OkOnly, "Success")
     End Sub
+
+    Private Sub lst_NameOfExercise_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lst_NameOfExercise.SelectedIndexChanged
+
+    End Sub
 End Class

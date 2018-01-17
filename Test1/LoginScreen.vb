@@ -8,20 +8,20 @@
         Do Until EOF(1) Or accountfound = True
             Dim fullline As String = LineInput(1)
             Dim Item() As String = Split(fullline, ",")
+            STAKEHOLDERSAIM = Item(8)
             correctloginname = Item(0)
             correctloginHeight = Item(1)
             If loginnameattempt = correctloginname And loginHeightattempt = correctloginHeight Then
                 accountfound = True
                 MainMenuScreen.Show()
+                MainMenuScreen.lbl_Goal.Text = STAKEHOLDERSAIM
                 Hide()
             Else
                 MsgBox("Sorry, usercode not found", MsgBoxStyle.OkOnly,)
             End If
         Loop
         FileClose(1)
-End Sub
-
-
+    End Sub
 End Class
 
 

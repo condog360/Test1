@@ -10,6 +10,8 @@
         CurrentCaloriesTotal = CurrentCaloriesTotal + Calories
         MainMenuScreen.lbl_FoodCalories.Text = CurrentCaloriesTotal
         Protein = txt_Protein.Text
+        CurrentProteinTotal = CurrentProteinTotal + Protein
+
         Carbohydrates = txt_Carbohydrates.Text
         Sugars = Txt_Sugars.Text
         Fats = txt_Fat.Text

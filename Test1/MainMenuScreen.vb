@@ -32,5 +32,9 @@
         MsgBox("Your total amount of calories for today is: " & CurrentCaloriesTotal)
         Close()
     End Sub
+
+    Private Sub lbl_CaloriesRemaining_Click(sender As Object, e As EventArgs) Handles lbl_CaloriesRemaining.Click
+        lbl_CaloriesRemaining.Text = lbl_Goal.Text - (lbl_FoodCalories.Text - lbl_ExerciseCalories.Text)
+    End Sub
 End Class
 

@@ -3,6 +3,16 @@
         NameOfExercise = lst_NameOfExercise.Text
         DurationOfExercise = txt_DurationOfExercise.Text
         IntensityOfExercise = cbo_IntensityOfExercise.Text
+        If NameOfExercise = "Football" And DurationOfExercise = 60 And IntensityOfExercise = "High (Out of breath)" Then
+            CaloriesBurned = CaloriesBurned + 474
+            MainMenuScreen.lbl_ExerciseCalories.Text = CaloriesBurned
+
+
+        End If
+
+
+
+
         Dim fullline As String = ""
         fullline = (NameOfExercise & "," & DurationOfExercise & "," & IntensityOfExercise)
         FileOpen(1, "N:\Visual Studio 2017\project\ExerciseTable.CSV", OpenMode.Append)
@@ -18,4 +28,6 @@
     Private Sub AddExercise_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+
 End Class

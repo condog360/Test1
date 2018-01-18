@@ -206,7 +206,7 @@ Partial Class AddFoodBreakfast
         Me.Button1.Text = "Save and Continue"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'AddFood
+        'AddFoodBreakfast
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -230,7 +230,7 @@ Partial Class AddFoodBreakfast
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "AddFood"
+        Me.Name = "AddFoodBreakfast"
         Me.Text = "Add Food"
         Me.ResumeLayout(False)
         Me.PerformLayout()

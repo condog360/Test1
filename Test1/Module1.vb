@@ -32,7 +32,16 @@
     Public NameOfExercise As String
     Public DurationOfExercise As String
     Public IntensityOfExercise As String
+    Public CaloriesBurned As Integer
 
     Public CurrentCaloriesTotal As Integer
+    Public CurrentProteinTotal As Integer
+    Public CurrentCarbohydratesTotal As Integer
+    Public CurrentSugarTotal As Integer
+    Public CurrentFatTotal As Integer
+    Public CurrentSaturatedFatTotal As Integer
+    Public CurrentFibreTotal As Integer
+    Public CurrentSaltTotal As Integer
+
 
 End Module

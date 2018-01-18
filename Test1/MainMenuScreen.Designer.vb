@@ -65,7 +65,7 @@ Partial Class MainMenuScreen
         Me.lbl_FatSoFar = New System.Windows.Forms.Label()
         Me.lbl_SaturatedFatSoFar = New System.Windows.Forms.Label()
         Me.lbl_FibreSoFar = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
+        Me.lbl_SaltSoFar = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lbl_Goall
@@ -362,6 +362,7 @@ Partial Class MainMenuScreen
         Me.Label1.Size = New System.Drawing.Size(76, 18)
         Me.Label1.TabIndex = 27
         Me.Label1.Text = "Calories:"
+        Me.Label1.UseWaitCursor = True
         '
         'Label5
         '
@@ -372,6 +373,7 @@ Partial Class MainMenuScreen
         Me.Label5.Size = New System.Drawing.Size(135, 18)
         Me.Label5.TabIndex = 28
         Me.Label5.Text = "Protein (Grams):"
+        Me.Label5.UseWaitCursor = True
         '
         'Label6
         '
@@ -382,6 +384,7 @@ Partial Class MainMenuScreen
         Me.Label6.Size = New System.Drawing.Size(191, 18)
         Me.Label6.TabIndex = 29
         Me.Label6.Text = "Carbohydrates (Grams):"
+        Me.Label6.UseWaitCursor = True
         '
         'Label13
         '
@@ -392,6 +395,7 @@ Partial Class MainMenuScreen
         Me.Label13.Size = New System.Drawing.Size(125, 18)
         Me.Label13.TabIndex = 30
         Me.Label13.Text = "Sugar (Grams):"
+        Me.Label13.UseWaitCursor = True
         '
         'Label14
         '
@@ -402,6 +406,7 @@ Partial Class MainMenuScreen
         Me.Label14.Size = New System.Drawing.Size(105, 18)
         Me.Label14.TabIndex = 31
         Me.Label14.Text = "Fat (Grams):"
+        Me.Label14.UseWaitCursor = True
         '
         'Label15
         '
@@ -412,6 +417,7 @@ Partial Class MainMenuScreen
         Me.Label15.Size = New System.Drawing.Size(182, 18)
         Me.Label15.TabIndex = 32
         Me.Label15.Text = "Saturated Fat (Grams):"
+        Me.Label15.UseWaitCursor = True
         '
         'Label16
         '
@@ -422,6 +428,7 @@ Partial Class MainMenuScreen
         Me.Label16.Size = New System.Drawing.Size(119, 18)
         Me.Label16.TabIndex = 33
         Me.Label16.Text = "Fibre (Grams):"
+        Me.Label16.UseWaitCursor = True
         '
         'Label17
         '
@@ -432,6 +439,7 @@ Partial Class MainMenuScreen
         Me.Label17.Size = New System.Drawing.Size(110, 18)
         Me.Label17.TabIndex = 34
         Me.Label17.Text = "Salt (Grams):"
+        Me.Label17.UseWaitCursor = True
         '
         'Label18
         '
@@ -443,6 +451,7 @@ Partial Class MainMenuScreen
         Me.Label18.Size = New System.Drawing.Size(204, 24)
         Me.Label18.TabIndex = 35
         Me.Label18.Text = "Total Macros So Far:"
+        Me.Label18.UseWaitCursor = True
         '
         'lbl_CaloriesSoFar
         '
@@ -452,6 +461,7 @@ Partial Class MainMenuScreen
         Me.lbl_CaloriesSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_CaloriesSoFar.TabIndex = 36
         Me.lbl_CaloriesSoFar.Text = "0"
+        Me.lbl_CaloriesSoFar.UseWaitCursor = True
         '
         'lbl_ProteinSoFar
         '
@@ -461,6 +471,7 @@ Partial Class MainMenuScreen
         Me.lbl_ProteinSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_ProteinSoFar.TabIndex = 37
         Me.lbl_ProteinSoFar.Text = "0"
+        Me.lbl_ProteinSoFar.UseWaitCursor = True
         '
         'lbl_CarbohydratesSoFar
         '
@@ -470,6 +481,7 @@ Partial Class MainMenuScreen
         Me.lbl_CarbohydratesSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_CarbohydratesSoFar.TabIndex = 38
         Me.lbl_CarbohydratesSoFar.Text = "0"
+        Me.lbl_CarbohydratesSoFar.UseWaitCursor = True
         '
         'lbl_SugarSoFar
         '
@@ -479,6 +491,7 @@ Partial Class MainMenuScreen
         Me.lbl_SugarSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_SugarSoFar.TabIndex = 39
         Me.lbl_SugarSoFar.Text = "0"
+        Me.lbl_SugarSoFar.UseWaitCursor = True
         '
         'lbl_FatSoFar
         '
@@ -488,6 +501,7 @@ Partial Class MainMenuScreen
         Me.lbl_FatSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_FatSoFar.TabIndex = 40
         Me.lbl_FatSoFar.Text = "0"
+        Me.lbl_FatSoFar.UseWaitCursor = True
         '
         'lbl_SaturatedFatSoFar
         '
@@ -497,6 +511,7 @@ Partial Class MainMenuScreen
         Me.lbl_SaturatedFatSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_SaturatedFatSoFar.TabIndex = 41
         Me.lbl_SaturatedFatSoFar.Text = "0"
+        Me.lbl_SaturatedFatSoFar.UseWaitCursor = True
         '
         'lbl_FibreSoFar
         '
@@ -506,15 +521,17 @@ Partial Class MainMenuScreen
         Me.lbl_FibreSoFar.Size = New System.Drawing.Size(13, 13)
         Me.lbl_FibreSoFar.TabIndex = 42
         Me.lbl_FibreSoFar.Text = "0"
+        Me.lbl_FibreSoFar.UseWaitCursor = True
         '
-        'Label26
+        'lbl_SaltSoFar
         '
-        Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(506, 467)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(45, 13)
-        Me.Label26.TabIndex = 43
-        Me.Label26.Text = "Label26"
+        Me.lbl_SaltSoFar.AutoSize = True
+        Me.lbl_SaltSoFar.Location = New System.Drawing.Point(506, 467)
+        Me.lbl_SaltSoFar.Name = "lbl_SaltSoFar"
+        Me.lbl_SaltSoFar.Size = New System.Drawing.Size(13, 13)
+        Me.lbl_SaltSoFar.TabIndex = 43
+        Me.lbl_SaltSoFar.Text = "0"
+        Me.lbl_SaltSoFar.UseWaitCursor = True
         '
         'MainMenuScreen
         '
@@ -522,7 +539,7 @@ Partial Class MainMenuScreen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(684, 662)
-        Me.Controls.Add(Me.Label26)
+        Me.Controls.Add(Me.lbl_SaltSoFar)
         Me.Controls.Add(Me.lbl_FibreSoFar)
         Me.Controls.Add(Me.lbl_SaturatedFatSoFar)
         Me.Controls.Add(Me.lbl_FatSoFar)
@@ -617,5 +634,5 @@ Partial Class MainMenuScreen
     Friend WithEvents lbl_FatSoFar As Label
     Friend WithEvents lbl_SaturatedFatSoFar As Label
     Friend WithEvents lbl_FibreSoFar As Label
-    Friend WithEvents Label26 As Label
+    Friend WithEvents lbl_SaltSoFar As Label
 End Class

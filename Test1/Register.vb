@@ -31,9 +31,9 @@
         ElseIf GoalRate = "Maintain Weight" Then
             GoalRate = 1
         ElseIf GoalRate = "Gain 0.5 Pounds Per Week" Then
-            GoalRate = 250
+            GoalRate = +250
         ElseIf GoalRate = "Gain  1 Pound Per Week" Then
-            GoalRate = 500
+            GoalRate = +500
         End If
         BMR = 88.362 + (13.397 * CurrentWeight) + (4.799 * Height) - (5.667 * Age)
         BMRPLUSEXERCISE = (BMR * ActivityLevel)
